@@ -9,7 +9,7 @@ def pop(stack):
         stack.pop()
 
 def ismax(stack):
-    if len(stack) > 5:
+    if len(stack) > 4:
         print("Stack penuh")
         return True
 
@@ -20,8 +20,15 @@ def isempty(stack):
 
 def main():
     tumpukan = list()
+    pop(tumpukan)
     push(tumpukan, 10)
     push(tumpukan, 20)
+    print("stack: ",tumpukan)
+    push(tumpukan, 30)
+    push(tumpukan, 15)
+    push(tumpukan, 25)
+    push(tumpukan, 40)
+    push(tumpukan, 44)
     print("stack: ",tumpukan)
     pop(tumpukan)
     print("stack: ",tumpukan)
