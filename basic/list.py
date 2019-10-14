@@ -21,10 +21,17 @@ print(a.count(2))
 a.remove(2)
 print(a)
 print('='*50)
+
+##Carefull
 b = a
 b.append(10)
 print(b)
 print(a)
+
+## creating list comprehensions
+a = [i for i in range(10)]
+print(a)
+
 # append alist.append(item) Menambahkan suatu item baru ke akhir list
 # insert alist.insert(i,item) Menyisipkan suatu item ke dalam list pada posisi ke-i
 # pop alist.pop() Menghapus & mengembalikan item terakhir dari dalam list
