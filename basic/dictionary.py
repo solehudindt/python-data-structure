@@ -17,3 +17,6 @@ print(strength)
 ## remove dict item
 print(heroes.pop('agility'))
 print(heroes)
+print(heroes.popitem())
+print(heroes)
+heroes.clear()
