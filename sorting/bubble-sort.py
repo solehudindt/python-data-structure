@@ -9,5 +9,7 @@ def bubble(list):
     for i in range(len(list)):
         for j in range(len(list) - 1,i,-1):
             print(i, j)
+            if list[j] < list[j - 1]:
+                print("swap")
 
 bubble(x)
